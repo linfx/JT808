@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace JT808
 {
-    public class Class1
+    public interface IBitCustomType
     {
+        void Load(object value);
+
+        object Save();
     }
 }
